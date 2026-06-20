@@ -2,10 +2,10 @@ import streamlit as st
 # 运行命令streamlit run Home.py
 st.set_page_config(page_title="模拟考试系统", layout="wide")
 
-st.markdown("# 📝 招聘笔试模拟系统")
+st.markdown("# 📝 模拟系统")
 st.divider()
-st.subheader("官方考情｜5套全新互不重复试卷｜完全匹配招聘公告分值")
-st.info("题型结构：单选+多选+判断客观题80分 + 公文改错/写作主观题20分｜全部贴合本地真题风格")
+st.subheader("官方考情｜全新试卷｜匹配招聘")
+st.info("题型结构：单选+多选+判断客观题80分 + 公文改错/写作主观题20分")
 st.divider()
 
 c1,c2,c3,c4,c5 = st.columns(5)
@@ -27,12 +27,12 @@ with c3:
 
 with c4:
     st.subheader("📕 测试四")
-    st.markdown("【官方方案1】真题卷A\n标准100分配比")
+    st.markdown("【官方方案】真题卷A\n标准100分配比")
     st.success("全真考场模式")
 
 with c5:
     st.subheader("📓 测试五")
-    st.markdown("【官方方案1】真题卷B\n全新独立题库")
+    st.markdown("【官方方案】真题卷B\n全新独立题库")
     st.success("考前冲刺模考")
 
 st.divider()
