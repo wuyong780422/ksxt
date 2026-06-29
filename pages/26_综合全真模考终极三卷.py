@@ -167,14 +167,38 @@ st.subheader("四、简答题（共3题，合计30分，人工阅卷）")
 st.markdown("#### 第1题（10分）")
 st.write("简述治安违法殴打他人与刑事故意伤害罪两者界限区分标准。")
 st.text_area("答题区域（第1题）", height=120, key="answer1", label_visibility="collapsed")
+with st.expander("查看参考答案与解析", expanded=False):
+    st.write("**参考答案：**")
+    st.write("二者核心区分维度为伤害后果、行为情节与主观恶性：")
+    st.write("1. 伤害后果：致人轻微伤的，属于治安殴打他人行为；致人轻伤及以上的，构成故意伤害罪。")
+    st.write("2. 行为情节：多次殴打、结伙殴打、殴打特殊弱势群体，情节恶劣的，纳入刑事评价范围；偶发争执、情节轻微的按治安处理。")
+    st.write("3. 主观与手段：持械行凶、预谋伤害的，优先按刑事追责；纠纷引发的徒手推搡、未造成严重后果的，按治安违法处理。")
 
 st.markdown("#### 第2题（10分）")
 st.write("简述网络运营者在网络安全与个人信息保护方面法定责任义务。")
 st.text_area("答题区域（第2题）", height=120, key="answer2", label_visibility="collapsed")
+with st.expander("查看参考答案与解析", expanded=False):
+    st.write("**参考答案：**")
+    st.write("一、网络安全义务：落实等级保护要求，建立安全管理制度，防范网络攻击入侵，留存网络日志不少于6个月，及时处置安全事件并上报。")
+    st.write("二、个人信息保护义务：")
+    st.write("1. 遵循合法正当必要原则，依法依规收集使用个人信息；")
+    st.write("2. 公开处理规则，保障用户知情权、决定权、更正删除权；")
+    st.write("3. 采取加密、备份等技术措施保障信息安全；")
+    st.write("4. 发生信息泄露立即采取补救措施，履行告知与上报义务。")
 
 st.markdown("#### 第3题（10分）")
 st.write("简述请示、报告两种上行公文核心区别与行文规范要求。")
 st.text_area("答题区域（第3题）", height=120, key="answer3", label_visibility="collapsed")
+with st.expander("查看参考答案与解析", expanded=False):
+    st.write("**参考答案：**")
+    st.write("一、核心区别：")
+    st.write("1. 目的不同：请示求批复，报告求知晓；")
+    st.write("2. 时间不同：请示事前行文，报告可事前事中事后行文；")
+    st.write("3. 内容不同：请示一文一事，报告可一文多事。")
+    st.write("二、行文规范：")
+    st.write("1. 均不得越级行文，特殊情况越级需抄送被越过机关；")
+    st.write("2. 请示只能主送一个上级，不得抄送下级；")
+    st.write("3. 报告中不得夹带请示事项。")
 
 # 提交计分
 st.divider()

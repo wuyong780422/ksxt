@@ -167,14 +167,36 @@ st.subheader("四、简答题（共3题，合计30分，人工阅卷）")
 st.markdown("#### 第1题（10分）")
 st.write("简述新时代“枫桥经验”的核心内涵与基层公安机关的实践路径。")
 st.text_area("答题区域（第1题）", height=120, key="answer1", label_visibility="collapsed")
+with st.expander("查看参考答案与解析", expanded=False):
+    st.write("**参考答案：**")
+    st.write("一、核心内涵：坚持党的群众路线，依靠人民群众就地化解矛盾纠纷，实现“小事不出村、大事不出镇、矛盾不上交”，以基层治理现代化保障社会和谐稳定。")
+    st.write("二、基层公安实践路径：")
+    st.write("1. 推动警力下沉，深耕社区警务，密切联系群众；")
+    st.write("2. 健全矛盾多元化解机制，联合多部门前端化解纠纷；")
+    st.write("3. 深化群防群治，动员群众参与社会治安防控；")
+    st.write("4. 推进智慧警务赋能，提升基层风险预判与处置能力。")
 
 st.markdown("#### 第2题（10分）")
 st.write("简述请示与报告的核心区别。")
 st.text_area("答题区域（第2题）", height=120, key="answer2", label_visibility="collapsed")
+with st.expander("查看参考答案与解析", expanded=False):
+    st.write("**参考答案：**")
+    st.write("1. 行文目的不同：请示用于请求上级批准、答复，需上级批复；报告用于汇报工作、反映情况，上级无需批复。")
+    st.write("2. 行文时间不同：请示必须事前行文；报告可事前、事中、事后行文。")
+    st.write("3. 内容要求不同：请示必须一文一事，不得夹带其他事项；报告可一文多事，综合汇报。")
+    st.write("4. 行文规则不同：请示只能主送一个上级机关，不得抄送下级；报告可主送多个上级。")
 
 st.markdown("#### 第3题（10分）")
 st.write("结合2026年度时政，简述更高水平平安中国建设的重点任务。")
 st.text_area("答题区域（第3题）", height=120, key="answer3", label_visibility="collapsed")
+with st.expander("查看参考答案与解析", expanded=False):
+    st.write("**参考答案：**")
+    st.write("1. 常态化推进扫黑除恶，持续打伞破网、打财断血，净化社会环境；")
+    st.write("2. 全链条打击治理电信网络诈骗，深化全民反诈，守护群众财产安全；")
+    st.write("3. 强化基层社会治理，坚持发展新时代枫桥经验，前端化解矛盾风险；")
+    st.write("4. 深化公共安全隐患整治，保障道路交通、消防等领域安全；")
+    st.write("5. 推进智慧警务建设，提升社会治安防控体系智能化水平；")
+    st.write("6. 严格规范公正文明执法，同步深化法治中国建设。")
 
 # 提交计分
 st.divider()
